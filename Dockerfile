@@ -54,4 +54,4 @@ COPY --from=builder /usr/local/bundle/ /usr/local/bundle/
 
 EXPOSE 3000
 
-CMD ["bin/rails", "s", "-b", "0.0.0.0"]
+CMD ["bin/dev"]
